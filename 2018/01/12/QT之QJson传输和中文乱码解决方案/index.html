@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
+<meta name="description" content="QT之QJson传输和中文乱码解决方案本文对遇到QJson的解析和传输遇到的些问题作出一些解决的办法  qt中传输json数据 qt接收json数据中包含中文转换   qt传输json数据Qt5中JSON的生成与解析 QJsonDocument  QJsonDocument既可以从一个基于文本表示的UTF-8编码，又可以从Qt自己的二进制格式读取和写入这个文件。 JSON文档可以从它的基于文本的表">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Xusnowy Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/01/12/QT之QJson传输和中文乱码解决方案/index.html">
 <meta property="og:site_name" content="Xusnowy Blog">
+<meta property="og:description" content="QT之QJson传输和中文乱码解决方案本文对遇到QJson的解析和传输遇到的些问题作出一些解决的办法  qt中传输json数据 qt接收json数据中包含中文转换   qt传输json数据Qt5中JSON的生成与解析 QJsonDocument  QJsonDocument既可以从一个基于文本表示的UTF-8编码，又可以从Qt自己的二进制格式读取和写入这个文件。 JSON文档可以从它的基于文本的表">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-01-12T07:25:21.935Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Xusnowy Blog">
+<meta name="twitter:description" content="QT之QJson传输和中文乱码解决方案本文对遇到QJson的解析和传输遇到的些问题作出一些解决的办法  qt中传输json数据 qt接收json数据中包含中文转换   qt传输json数据Qt5中JSON的生成与解析 QJsonDocument  QJsonDocument既可以从一个基于文本表示的UTF-8编码，又可以从Qt自己的二进制格式读取和写入这个文件。 JSON文档可以从它的基于文本的表">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/01/12/QT之QJson传输和中文乱码解决方案/"/>
 
 
 
 
 
-  <title>Xusnowy Blog</title>
+  <title> | Xusnowy Blog</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     <a href="https://github.com/xusnowy" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/01/12/QT之QJson传输和中文乱码解决方案/" itemprop="url">未命名</a></h1>
+          <h1 class="post-title" itemprop="name headline"></h1>
         
 
         <div class="post-meta">
@@ -298,9 +299,7 @@
       
 
       
-        
-          
-            <h1 id="QT之QJson传输和中文乱码解决方案"><a href="#QT之QJson传输和中文乱码解决方案" class="headerlink" title="QT之QJson传输和中文乱码解决方案"></a>QT之QJson传输和中文乱码解决方案</h1><p>本文对遇到QJson的解析和传输遇到的些问题作出一些解决的办法</p>
+        <h1 id="QT之QJson传输和中文乱码解决方案"><a href="#QT之QJson传输和中文乱码解决方案" class="headerlink" title="QT之QJson传输和中文乱码解决方案"></a>QT之QJson传输和中文乱码解决方案</h1><p>本文对遇到QJson的解析和传输遇到的些问题作出一些解决的办法</p>
 <ul>
 <li><strong>qt中传输json数据</strong></li>
 <li><strong>qt接收json数据中包含中文转换</strong></li>
@@ -331,8 +330,6 @@ QJsonArray类用于封装JSON数组。
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">void ReceiverWB::analysis(QString msg)</span><br><span class="line">&#123;</span><br><span class="line">    QJsonParseError json_error;</span><br><span class="line">    QJsonDocument parse_doucment = QJsonDocument::fromJson(msg.toStdString().data(), &amp;json_error);</span><br><span class="line"></span><br><span class="line">    if(json_error.error == QJsonParseError::NoError) </span><br><span class="line">	&#123;</span><br><span class="line">        if(parse_doucment.isObject())</span><br><span class="line">		&#123;</span><br><span class="line">            QJsonObject obj = parse_doucment.object();</span><br><span class="line">            if(obj.contains(&quot;name&quot;)) </span><br><span class="line">			&#123;</span><br><span class="line">                QJsonValue name_value = obj.take(&quot;name&quot;);</span><br><span class="line">                if(name_value.isString())</span><br><span class="line">				&#123;</span><br><span class="line">					 //在这里我们把汉字的名称做了转换，保存到tmpCamre-&gt;name里&#123;&quot;name&quot;:&quot;张三&quot;&#125;</span><br><span class="line">					 QString str = QString::fromLocal8Bit(name_value.toString().toLocal8Bit().data());</span><br><span class="line">                     strcpy(tmpCamra-&gt;Name,str.toStdString().data());</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>小结:以上便是在实际应用中遇到的乱码的问题，希望对有遇到此问题的朋友，有所帮助。</p>
 
-          
-        
       
     </div>
     
@@ -349,141 +346,28 @@ QJsonArray类用于封装JSON数组。
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/12/Qt之显示yuv数据图像/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="xu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/author.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Xusnowy Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/01/12/Qt之显示yuv数据图像/" itemprop="url">未命名</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-12T15:22:28+08:00">
-                2018-01-12
-              </time>
+              <a href="/2018/01/12/Qt之显示yuv数据图像/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>#Qt之显示yuv数据图像</p>
-<p>本文对在QT中实时显示yuv数据提供一个解决方案，再次特别非常感谢<a href="http://blog.yundiantech.com/中的博文，也是借鉴其中的播放YUV文件的demo实现实时播放yuv视频数据，废话不多说，就直接介绍显示效果最好的方法吧" target="_blank" rel="noopener">http://blog.yundiantech.com/中的博文，也是借鉴其中的播放YUV文件的demo实现实时播放yuv视频数据，废话不多说，就直接介绍显示效果最好的方法吧</a></p>
-<ul>
-<li><strong>qt中利用FFmpeg将yuv转RGB32</strong></li>
-<li><strong>qt中将rbg显示到label上</strong></li>
-</ul>
-<p>##qt中利用FFmpeg将yuv转RGB32<br>因为在QT中是无法直接显示yuv数据，所以我们必须把yuv数据转换成RGB32通过QImage来显示到控件中，具体的yuv和rgb的基本介绍就不在此给大家做介绍，需要知道原理的自行百度，如果想自己通过写转换代码来实现，也是可以的，只不过转换出来的效果不是太理想，特别是在纯白的背景时候，会有纯红，纯绿，纯蓝的颜色出现，导致整个颜色的偏差，所以我们直接采用FFmpeg中的yuv转rgb的方法，优化和效率都不错。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">extern &quot;C&quot;</span><br><span class="line">&#123;</span><br><span class="line">#include &quot;libavcodec/avcodec.h&quot;</span><br><span class="line">#include &quot;libavformat/avformat.h&quot;</span><br><span class="line">#include &quot;libswscale/swscale.h&quot;</span><br><span class="line">#include &quot;libavdevice/avdevice.h&quot;</span><br><span class="line">&#125;</span><br><span class="line">uint8_t *yuvBuffer;</span><br><span class="line">AVFrame *pFrame ;</span><br><span class="line">AVFrame *pFrameRGB;</span><br><span class="line">uint8_t * rgbBuffer;</span><br><span class="line">SwsContext *img_convert_ctx;</span><br><span class="line"></span><br><span class="line">//初始化</span><br><span class="line">void InitPlay(int width,int height)</span><br><span class="line">&#123;</span><br><span class="line">	//width和heigt为传入的分辨率的大小，实际应用我传的1280*720</span><br><span class="line">    int yuvSize = width * height * 3 /2;</span><br><span class="line">    yuvBuffer = (uint8_t *)malloc(yuvSize);</span><br><span class="line">	//为每帧图像分配内存</span><br><span class="line">    pFrame = av_frame_alloc();</span><br><span class="line">    pFrameRGB = av_frame_alloc();</span><br><span class="line">    int numBytes = avpicture_get_size(PIX_FMT_RGB32, width,height);</span><br><span class="line">    rgbBuffer = (uint8_t *) av_malloc(numBytes * sizeof(uint8_t));</span><br><span class="line">    avpicture_fill((AVPicture *) pFrameRGB, rgbBuffer, PIX_FMT_RGB32,width, height);</span><br><span class="line">    //特别注意 img_convert_ctx 该在做H264流媒体解码时候，发现sws_getContext /sws_scale内存泄露问题，</span><br><span class="line">	//注意sws_getContext只能调用一次，在初始化时候调用即可，另外调用完后，在析构函数中使用sws_free_Context，将它的内存释放。</span><br><span class="line">	//设置图像转换上下文</span><br><span class="line">    img_convert_ctx = sws_getContext(width, height, AV_PIX_FMT_YUV420P, width, height, PIX_FMT_RGB32, SWS_BICUBIC, NULL, NULL, NULL);</span><br><span class="line"> ｝</span><br><span class="line"> //实时接收yuv数据转换成rgb32 str是yuv数据，len为长度</span><br><span class="line"> void wb_yuv(void* str,int len)</span><br><span class="line">&#123;</span><br><span class="line">    avpicture_fill((AVPicture *) pFrame, (uint8_t *)str, AV_PIX_FMT_YUV420P, width, height);//这里的长度和高度跟之前保持一致</span><br><span class="line">    //转换图像格式，将解压出来的YUV420P的图像转换为RGB的图像</span><br><span class="line">    sws_scale(img_convert_ctx,</span><br><span class="line">            (uint8_t const * const *) pFrame-&gt;data,</span><br><span class="line">            pFrame-&gt;linesize, 0, height, pFrameRGB-&gt;data,</span><br><span class="line">            pFrameRGB-&gt;linesize);</span><br><span class="line">    //把这个RGB数据 用QImage加载</span><br><span class="line">    QImage tmpImg((uchar *)rgbBuffer,mWidth,mHeight,QImage::Format_RGB32);</span><br><span class="line">    QImage image = tmpImg.copy(); //把图像复制一份 传递给界面显示</span><br><span class="line">    emit sig_GetOneFrame(image);  //发送信号，将次imamge发送到要显示的控件，用paintEvent绘制出来</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>##qt中将RGB32显示到label上<br>继承了一个QLbel的类，重写paintEvent事件，将RBG绘制到界面中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">//接收sig_GetOneFrame信号，调用update在界面中显示图像</span><br><span class="line">void DecLabel::slotGetOneFrame(QImage img)</span><br><span class="line">&#123;</span><br><span class="line">    wb_Image = img;</span><br><span class="line">    update(); //调用update将执行 paintEvent函数</span><br><span class="line">&#125;</span><br><span class="line">//需要重写paintEvent事件</span><br><span class="line">void DecLabel::paintEvent(QPaintEvent *event)</span><br><span class="line">&#123;</span><br><span class="line">    QPainter painter(this);</span><br><span class="line"></span><br><span class="line">    if (wb_Image.size().width() &lt;= 0) return;</span><br><span class="line">    ///将图像按比例缩放成和窗口一样大小</span><br><span class="line">     QImage img = wb_Image.scaled(this-&gt;size,Qt::IgnoreAspectRatio);</span><br><span class="line">     int x = this-&gt;width() - img.width();</span><br><span class="line">     int y = this-&gt;height() - img.height();</span><br><span class="line">     painter.drawImage(QPoint(x,y),img); //画出图像</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>小结：实际应用中，因为我们有自己的解码库，将实时的H.264数据解码成YUV数据，但需要自己做显示，就借鉴FFMPEG中YUV转RGB32方法，实现之后效果还不错。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -493,129 +377,11 @@ QJsonArray类用于封装JSON数组。
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/12/新的开始/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="xu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/author.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Xusnowy Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/01/12/新的开始/" itemprop="url">新的开始</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-12T12:50:36+08:00">
-                2018-01-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -623,6 +389,10 @@ QJsonArray类用于封装JSON数组。
 
 
           
+
+  
+
+
 
         </div>
         
@@ -643,8 +413,17 @@ QJsonArray类用于封装JSON数组。
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -704,6 +483,22 @@ QJsonArray类用于封装JSON数组。
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#QT之QJson传输和中文乱码解决方案"><span class="nav-number">1.</span> <span class="nav-text">QT之QJson传输和中文乱码解决方案</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#qt传输json数据"><span class="nav-number">1.1.</span> <span class="nav-text">qt传输json数据</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -824,6 +619,10 @@ QJsonArray类用于封装JSON数组。
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
